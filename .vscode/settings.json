@@ -1,0 +1,37 @@
+{
+  "editor.rulers": [80],
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.largeFileOptimizations": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+
+  "prettier.trailingComma": "es5",
+
+  "vetur.format.defaultFormatter.html": "prettier",
+
+  "files.exclude": {
+    "**/CVS": false,
+    "**/.hg": false,
+    "**/.git": false,
+    "**/.svn": false,
+    "**/.DS_Store": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
